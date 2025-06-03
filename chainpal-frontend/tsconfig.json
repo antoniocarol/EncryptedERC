@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // <--- Alterar aqui
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      "ES2020" // <--- Garantir que esteja aqui
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+    // ... outras opções que você possa ter ...
+  },
+  "include": [
+    "src"
+  ]
+}

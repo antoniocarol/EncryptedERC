@@ -1,0 +1,90 @@
+{
+  "name": "chainpal-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.1.1",
+    "@mui/material": "^7.1.1",
+    "@phosphor-icons/react": "^2.1.10",
+    "@rainbow-me/rainbowkit": "^2.2.5",
+    "@tanstack/react-query": "^5.79.2",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "@zk-kit/baby-jubjub": "0.2.0",
+    "@zk-kit/eddsa-poseidon": "1.1.0",
+    "circomlibjs": "^0.1.7",
+    "ethers": "^6.14.3",
+    "ffjavascript": "0.2.63",
+    "maci-crypto": "2.5.0",
+    "patch-package": "^8.0.0",
+    "poseidon-lite": "^0.3.0",
+    "react": "^19.1.0",
+    "react-app-rewired": "^2.2.1",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "snarkjs": "0.7.5",
+    "typescript": "^4.9.5",
+    "viem": "^2.30.6",
+    "wagmi": "^2.15.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "postinstall": "patch-package"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "overrides": {
+    "ffjavascript": "0.2.63",
+    "@zk-kit/baby-jubjub": {
+      "ffjavascript": "0.2.63"
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-bigint": "^7.8.3",
+    "@types/snarkjs": "^0.7.9",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.1",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "util": "^0.12.5",
+    "vm-browserify": "^1.1.2"
+  }
+}
